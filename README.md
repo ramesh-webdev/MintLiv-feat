@@ -11,19 +11,16 @@ Features
 - APIs written in TypeScript (backend)
 - Frontend in TypeScript (React / similar)
 
-Repository layout (assumed)
+Repository layout:
 
 - /frontend - the client application
 - /backend  - the server application (API + Socket.IO)
-
-If your folders differ, update the paths in this README accordingly.
 
 Tech stack
 
 - TypeScript (majority of codebase)
 - Node.js, Express (backend)
 - Socket.IO for real-time communication
-- React / Vite / Next.js / other (frontend) — adjust as appropriate
 - MongoDB or another persistent store (optional)
 
 Getting started
@@ -47,7 +44,7 @@ Install and run backend
 cd backend
 npm install
 # development
-npm run dev
+npm start
 # or if using nodemon/ts-node-dev, ensure scripts are defined in package.json
 ```
 

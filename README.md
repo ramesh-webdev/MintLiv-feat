@@ -63,7 +63,7 @@ Environment variables
 Backend (example - create a `.env` file in `backend`):
 
 ```
-PORT=4000
+PORT=5000
 MONGO_URI=mongodb://localhost:27017/mintliv
 JWT_SECRET=your_jwt_secret
 NODE_ENV=development

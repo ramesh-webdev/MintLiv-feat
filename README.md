@@ -74,8 +74,8 @@ SOCKET_PATH=/socket.io
 Frontend (example - create a `.env` or `.env.local` in `frontend`):
 
 ```
-VITE_API_URL=http://localhost:4000
-VITE_SOCKET_URL=http://localhost:4000
+VITE_API_URL=http://localhost:5000
+VITE_SOCKET_URL=http://localhost:5000
 ```
 
 Socket.IO notes
